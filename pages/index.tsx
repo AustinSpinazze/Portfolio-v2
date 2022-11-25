@@ -1,16 +1,18 @@
 import type { NextPage } from 'next';
-
-import styles from '../styles/Home.module.css';
+import { About, Hero } from '../components';
 
 const Home: NextPage = () => {
 	return (
-		<div className={styles.container}>
-			{/* Header */}
-
+		<main className='flex flex-col justify-center align-middle'>
 			{/* Hero */}
+			<section id='hero'>
+				<Hero />
+			</section>
 
 			{/* About */}
-
+			<section id='about'>
+				<About />
+			</section>
 			{/* Experience */}
 
 			{/* Skills */}
@@ -18,7 +20,7 @@ const Home: NextPage = () => {
 			{/* Projects */}
 
 			{/* Contact Form */}
-		</div>
+		</main>
 	);
 };
 
