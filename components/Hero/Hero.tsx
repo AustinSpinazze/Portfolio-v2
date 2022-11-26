@@ -29,8 +29,8 @@ const Hero = (props: Props) => {
 				alt='A headshot of Austin Spinazze'
 			/>
 			<div className='z-20'>
-				<h2 className='text-sm uppercase text-gray-500 pb-4 tracking-widest'>
-					Fullstack Web Developer
+				<h2 className='text-lg uppercase text-gray-500 pb-4 tracking-[10px]'>
+					Web Developer
 				</h2>
 				<h1 className='text-4xl lg:text-5xl font-semibold tracking-widest px-10'>
 					<span>{text}</span>

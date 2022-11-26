@@ -3,7 +3,7 @@ import { About, Hero } from '../components';
 
 const Home: NextPage = () => {
 	return (
-		<main className='flex flex-col justify-center align-middle'>
+		<main className='bg-[rgb(36,36,36)]'>
 			{/* Hero */}
 			<section id='hero'>
 				<Hero />
