@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { About, Hero } from '../components';
+import { About, Experience, Hero } from '../components';
 
 const Home: NextPage = () => {
 	return (
@@ -8,12 +8,14 @@ const Home: NextPage = () => {
 			<section id='hero'>
 				<Hero />
 			</section>
-
 			{/* About */}
 			<section id='about'>
 				<About />
 			</section>
 			{/* Experience */}
+			<section id='experience'>
+				<Experience />
+			</section>
 
 			{/* Skills */}
 
