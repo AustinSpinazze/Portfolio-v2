@@ -6,7 +6,7 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
 	return (
-		<div className='bg-[rgb(36,36,36)] text-white'>
+		<div className='bg-[rgb(36,36,36)] text-white scroll'>
 			<Header />
 			{children}
 		</div>

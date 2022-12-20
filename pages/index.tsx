@@ -1,5 +1,12 @@
 import type { NextPage } from 'next';
-import { About, Experience, Hero } from '../components';
+import {
+	About,
+	ContactMe,
+	Experience,
+	Hero,
+	Projects,
+	Skills,
+} from '../components';
 
 const Home: NextPage = () => {
 	return (
@@ -16,12 +23,18 @@ const Home: NextPage = () => {
 			<section id='experience'>
 				<Experience />
 			</section>
-
 			{/* Skills */}
-
+			<section id='skills'>
+				<Skills />
+			</section>
 			{/* Projects */}
-
+			<section id='projects'>
+				<Projects />
+			</section>
 			{/* Contact Form */}
+			<section id='contact'>
+				<ContactMe />
+			</section>
 		</main>
 	);
 };
